@@ -17,7 +17,7 @@ section{
     padding-bottom: 150px;
 
 }
-.name-highlight{
+.orange-highlight{
     color: coral;
 }
 .half-width{
@@ -47,5 +47,34 @@ p{
 }
 .drem-area{
     background-image: url("img/dream-bg.png");
+    
+}
+.single-experiench{
+    box-shadow: 10px 10px 30px rgb(155, 156, 153);
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(3, 181, 240),blue);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(114, 3, 240),rgb(0, 255, 21));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+footer h1{
+    text-align: center;
     
 }
