@@ -6,8 +6,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
 section{
-    height: 600px;
+    height: 500px;
+    padding-bottom: 150px;
 
 }
 .name-highlight{
@@ -21,7 +28,7 @@ section{
 
 }
 .half-width img{
-    width: 60%;
+    width: 111%;
 }
 .top-banner{
     background-image: url("img/top-banner.png");
@@ -29,11 +36,16 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(82, 33, 105),rgb(236, 31, 209));
+    background-image: linear-gradient(rgb(252, 237, 30),rgb(255, 65, 7));
     padding: 10px 20px;
     border-radius: 5px;
     color: cornsilk;
+    font-weight: 700;
 }
 p{
     line-height: 20px;
+}
+.drem-area{
+    background-image: url("img/dream-bg.png");
+    
 }
