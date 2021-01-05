@@ -1,11 +1,39 @@
 body{
+        margin: 0;
     font-family: 'Poppins', sans-serif;
 
 }
 h1{
-    font-size: 50;
+    font-size: 50px;
+}
+section{
+    height: 600px;
+
 }
 .name-highlight{
     color: coral;
 }
-.
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 60%;
+}
+.top-banner{
+    background-image: url("img/top-banner.png");
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(82, 33, 105),rgb(236, 31, 209));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: cornsilk;
+}
+p{
+    line-height: 20px;
+}
